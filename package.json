@@ -1,0 +1,18 @@
+{
+  "name": "w-y-r-api",
+  "version": "1.0.0",
+  "description": "Would you rather question API",
+  "license": "ISC",
+  "author": "Said",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
