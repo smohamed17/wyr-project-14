@@ -7,7 +7,7 @@ question: String, answer1: String, answer2: String,
 })
 
 const choice = ref(null) // this will circle the answer you give on the WYR.
-// Update 4/22: this will remove a bug where both radio buttons are both selected at the same time. By using null it will go back to normal selections and the answer will appear.
+// this will remove a bug where both radio buttons are both selected at the same time. By using null it will go back to normal selections and the answer will appear.
 
 const emit = defineEmits([
     'answer-selected' // this will emit an event, and it highly recommended to use two words.
