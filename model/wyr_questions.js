@@ -1,4 +1,4 @@
-const questions = [ {
+const questions = [ { // these are random generated questions that I have come up with. 
     'question': 'Would you rather have a perfect memory or be able to forget anything you wanted at will',
     'answer1' : ' have a perfect memory',
     'answer2' : 'be able to forget anything you wanted at will',
