@@ -15,4 +15,4 @@ app.use('/', indexRouter) // this will go to the router.
 
 const server = app.listen(process.env.PORT || 1305, function(){
     console.log('Server running on port ', server.address().port) // this is focusing on the port and accessing the port and console log.
-}) // 4/22 update: this will always appear on the log stream in the azure portal.
+}) // this will always appear on the log stream in the azure portal.
